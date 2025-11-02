@@ -1,6 +1,7 @@
 using Application;
 using Infrastructure;
 using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
 
 namespace Api
 {
@@ -20,8 +21,12 @@ namespace Api
                 builder.Services.AddInfrastructure(csvPath, connectionString);
             }
             builder.Services.AddApplication();
-            // Web API Basics
-            builder.Services.AddControllers();
+            // Web API Basics - mit String-Enum Unterstützung
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                });
             // Swagger/OpenAPI für einfache Erkundung der API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
