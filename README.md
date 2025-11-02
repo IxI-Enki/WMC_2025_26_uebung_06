@@ -36,3 +36,18 @@ Swagger UI: http://localhost:5254/swagger
 
 ---
 *Implemented with ❤️ using Clean Architecture principles*
+
+---
+
+## 💤 So hätte die Sleep Mode ASCII Art aussehen sollen:
+
+```
+   _____ _                   __  __           _      
+  / ____| |                 |  \/  |         | |     
+ | (___ | | ___  ___ _ __   | \  / | ___   __| | ___ 
+  \___ \| |/ _ \/ _ \ '_ \  | |\/| |/ _ \ / _` |/ _ \
+  ____) | |  __/  __/ |_) | | |  | | (_) | (_| |  __/
+ |_____/|_|\___|\___| .__/  |_|  |_|\___/ \__,_|\___|
+                    | |                               
+                    |_|              ON! 💤💤💤        
+```
