@@ -11,6 +11,7 @@ author:
 <!--markdownlint-disable MD033-->
 
 <div align="center">
+
 ![student-at-htl-dark](files/img/student-at-htl-dark.svg)
 
 </div>
