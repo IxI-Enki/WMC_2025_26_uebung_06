@@ -6,6 +6,8 @@ author:
   github:
     username: IxI-Enki
     url: 'https://github.com/IxI-Enki'
+  shool: ![student-at-htl-dark](files/img/student-at-htl-dark.svg)
+  
 ---
 
 <!--markdownlint-disable MD033-->
