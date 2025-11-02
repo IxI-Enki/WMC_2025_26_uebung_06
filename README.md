@@ -1,6 +1,14 @@
-# WMC_2025_26_uebung_08
+---
+title: WMC_2025_26_uebung_08
+date: '2025-11-02'
+author:
+  full_name: Jan Ritt
+  github:
+    username: IxI-Enki
+    url: 'https://github.com/IxI-Enki'
+---
 
-Übung 8 für WMC 2025/26 - Clean Architecture mit CQRS
+![student-at-htl-dark](files/img/student-at-htl-dark.svg)
 
 ## 🏗️ Projekt-Struktur
 
@@ -36,7 +44,7 @@ Swagger UI: `http://localhost:5254/swagger`
 
 ---
 
----
+<!--
 
 ## 💤 So hätte die Sleep Mode ASCII Art aussehen sollen
 
@@ -48,5 +56,6 @@ Swagger UI: `http://localhost:5254/swagger`
   ____) | |  __/  __/ |_) | | |  | | (_) | (_| |  __/
  |_____/|_|\___|\___| .__/  |_|  |_|\___/ \__,_|\___|
                     | |
-                    |_|              ON! 💤💤💤
+                    |_|
 ```
+-->
