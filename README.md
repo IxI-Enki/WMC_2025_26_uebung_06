@@ -8,7 +8,14 @@ author:
     url: 'https://github.com/IxI-Enki'
 ---
 
+<!--markdownlint-disable MD033-->
+
+<div align="center">
 ![student-at-htl-dark](files/img/student-at-htl-dark.svg)
+
+</div>
+
+<!--markdownlint-enable MD033-->
 
 ## 🏗️ Projekt-Struktur
 
