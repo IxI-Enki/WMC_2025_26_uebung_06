@@ -1,41 +1,55 @@
-var builder = WebApplication.CreateBuilder(args);
+using Application;
+using Infrastructure;
+using Microsoft.OpenApi.Models;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace Api
 {
-    app.MapOpenApi();
-}
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+            var skipInfrastructure = builder.Configuration["SkipInfrastructure"]?.Equals("true", StringComparison.OrdinalIgnoreCase) == true;
+            // Pfad zur CSV-Datei (im Ausgabeverzeichnis erwartet)
+            var csvPath = Path.Combine(AppContext.BaseDirectory, "data.csv");
+            // DB-Connection aus appsettings.json (Default). Fällt sonst auf LocalDB zurück (siehe Infrastructure.AddInfrastructure)
+            var connectionString = builder.Configuration.GetConnectionString("Default") ?? throw new ArgumentException("Connection string not found");
+            // Registriert Infrastruktur (DbContext, Repositories, UoW, CSV-Reader, Seeder)
+            if (!skipInfrastructure)
+            {
+                builder.Services.AddInfrastructure(csvPath, connectionString);
+            }
+            builder.Services.AddApplication();
+            // Web API Basics
+            builder.Services.AddControllers();
+            // Swagger/OpenAPI für einfache Erkundung der API
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Devices API",
+                    Version = "v1",
+                    Description = "API zur Verwaltung von Geräten, Personen und Nutzungen"
+                });
+            });
+            var app = builder.Build();
 
-app.UseHttpsRedirection();
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Devices API v1");
+                    c.RoutePrefix = "swagger";
+                    c.DisplayRequestDuration();
+                });
+            }
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+            app.UseHttpsRedirection();
+            app.MapControllers();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
-app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+            app.Run();
+        }
+    }
 }

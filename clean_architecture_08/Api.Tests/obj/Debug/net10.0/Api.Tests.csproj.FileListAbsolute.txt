@@ -11,6 +11,7 @@ D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Ap
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\testhost.exe
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\MvcTestingAppManifest.json
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\data.csv
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Api.Tests.deps.json
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Api.Tests.runtimeconfig.json
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Api.Tests.dll
@@ -331,7 +332,6 @@ D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Ap
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\MediatR.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\MediatR.Contracts.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.Testing.dll
-D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.TestHost.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -360,6 +360,9 @@ D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Ap
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Microsoft.Win32.SystemEvents.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\System.ClientModel.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
 D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Api.Tests\bin\Debug\net10.0\System.Drawing.Common.dll
