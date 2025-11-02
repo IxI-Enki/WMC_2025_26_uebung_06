@@ -42,3 +42,33 @@ Thumbs.db
 out/
 .dist/
 
+# .NET
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.json
+!appsettings.json
+!appsettings.*.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
