@@ -1,0 +1,6 @@
+{
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\_Repositories\\year_2025_26\\WMC_2025_26\\wmc_uebung_08\\clean_architecture_08\\Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\_Repositories\\year_2025_26\\WMC_2025_26\\wmc_uebung_08\\clean_architecture_08\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\_Repositories\\year_2025_26\\WMC_2025_26\\wmc_uebung_08\\clean_architecture_08\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\_Repositories\\year_2025_26\\WMC_2025_26\\wmc_uebung_08\\clean_architecture_08\\Infrastructure"
+}

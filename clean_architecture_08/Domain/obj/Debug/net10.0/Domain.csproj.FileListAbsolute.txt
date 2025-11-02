@@ -1,0 +1,12 @@
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\bin\Debug\net10.0\Domain.deps.json
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\bin\Debug\net10.0\Domain.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\bin\Debug\net10.0\Domain.pdb
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.sourcelink.json
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\refint\Domain.dll
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\Domain.pdb
+D:\_Repositories\year_2025_26\WMC_2025_26\wmc_uebung_08\clean_architecture_08\Domain\obj\Debug\net10.0\ref\Domain.dll
