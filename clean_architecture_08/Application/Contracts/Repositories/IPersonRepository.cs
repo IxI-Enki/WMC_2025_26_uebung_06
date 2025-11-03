@@ -12,4 +12,3 @@ public interface IPersonRepository : IGenericRepository<Person>
     /// </summary>
     Task<Person?> GetByEmailAsync(string mailAddress, CancellationToken ct = default);
 }
-

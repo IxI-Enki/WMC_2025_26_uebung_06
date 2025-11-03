@@ -18,4 +18,3 @@ public interface IUsageRepository : IGenericRepository<Usage>
     /// <returns>True wenn Überlappung existiert, sonst false</returns>
     Task<bool> HasOverlapAsync(int id, int deviceId, DateOnly from, DateOnly to, CancellationToken ct = default);
 }
-

@@ -30,7 +30,7 @@ public class DeviceTests
     public void Create_InvalidRules_Throws(string? serialNumber, string? deviceName, string expectedMessage)
     {
         // Arrange & Act
-        var ex = Assert.Throws<DomainValidationException>(() => 
+        var ex = Assert.Throws<DomainValidationException>(() =>
             Device.Create(serialNumber ?? string.Empty, deviceName ?? string.Empty, DeviceType.Tablet));
 
         // Assert
@@ -59,7 +59,7 @@ public class DeviceTests
         var device = Device.Create("123", "Device", DeviceType.Tablet);
 
         // Act & Assert
-        var ex = Assert.Throws<DomainValidationException>(() => 
+        var ex = Assert.Throws<DomainValidationException>(() =>
             device.Update("12", "Device", DeviceType.Tablet));
         Assert.Equal("Seriennummer muss mindestens 3 Zeichen haben.", ex.Message);
     }
@@ -93,4 +93,3 @@ public class DeviceTests
         Assert.Equal("Test Device (123)", result);
     }
 }
-
