@@ -1,5 +1,5 @@
 ---
-title: WMC_2025_26_uebung_08
+title: WMC_2025_26_uebung_06
 date: '2025-11-02'
 author:
   full_name: Jan Ritt
