@@ -55,7 +55,9 @@ Die Definition der Datenbankstruktur erfolgt im `AppDbContext` über `OnModelCre
 
 #### Validierung einer Person
 
-Kein Feld darf leer sein. Die Mailadresse muss syntaktisch korrekt sein. Die Mailadresse darf nur einer Person vorkommen und dient als Identifikationsmerkmal.
+- Kein Feld darf leer sein.
+- Die Mailadresse muss syntaktisch korrekt sein.
+- Die Mailadresse darf nur einer Person vorkommen und dient als Identifikationsmerkmal.
 
 ### Swagger
 
