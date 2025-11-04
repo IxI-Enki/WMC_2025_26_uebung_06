@@ -65,6 +65,6 @@ Die API bietet für alle drei Entitätstypen die CRUD-Funktionalitäten an. Der 
 
 <div align="center">
 
-  <img src="../img/swagger_devices.png" alt="devices" width="200"><img src="../img/swagger_people.png" alt="persons" width="200"><img src="../img/swagger_usages.png" alt="usages" width="200">
+  <img src="../img/swagger_usages.png" alt="usages" height="300"><img src="../img/swagger_devices.png" alt="devices" height="300"><img src="../img/swagger_people.png" alt="persons" height="300">
 
 </div>
