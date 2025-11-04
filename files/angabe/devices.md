@@ -38,23 +38,14 @@ Die Definition der Datenbankstruktur erfolgt im `AppDbContext` über `OnModelCre
 #### Validierung einer Usage
 
 - Beim Anlegen einer neuen `Usage` ist darauf zu achten, dass diese für ein Gerät sich nicht mit anderen Buchungen überlagert.
-
 - Usages werden auf Datumsbasis und nicht auf Zeitbasis verwaltet.
-
 - Es darf auch nicht am Tag der Rückgabe eine neue Usage beginnen.
-
 - Natürlich darf das `To`-Datum nicht vor dem `From`-Datum liegen.
-
 - Die `Person` und das `Device` für das `Usage` müssen bereits vorhanden sein.
-
 - Usages können natürlich nur für die Zukunft gebucht werden (Use Case) und das Rückgabedatum muss hinter dem `From`-Datum liegen.
-
 - Das gleiche gilt auch bei der Änderung von Usages.
-
 - Beim Datenimport gilt diese Einschränkung natürlich nicht.
-
 - Überprüfen Sie die Korrektheit Ihres Codes an Hand der demonstrierten Beispiele.
-
 - Ihre Implementierung soll die gleichen Fehlermeldungen bringen.
 
 #### Validierung eines Devices
