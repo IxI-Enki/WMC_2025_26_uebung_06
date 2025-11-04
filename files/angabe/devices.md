@@ -47,7 +47,7 @@ Die Definition der Datenbankstruktur erfolgt im `AppDbContext` über `OnModelCre
 
 - Die `Person` und das `Device` für das `Usage` müssen bereits vorhanden sein.
 
-- Usages können natürlich nur für die Zukunft gebucht werden (Use Case) und das Rückgabedatum muss hinter dem `To`-Datum liegen.
+- Usages können natürlich nur für die Zukunft gebucht werden (Use Case) und das Rückgabedatum muss hinter dem `From`-Datum liegen.
 
 - Das gleiche gilt auch bei der Änderung von Usages.
 
