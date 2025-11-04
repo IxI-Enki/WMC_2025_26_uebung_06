@@ -9,9 +9,9 @@ author:
     url: 'https://github.com/IxI-Enki'
 
 agent:
-  model: 'Claude 4.5 Sonnet thinking'
+  model: 'Claude 4.5 Sonnet'
   provider: Anthropic
-  integrated_development_environment: Cursor
+  client: Cursor
 ---
 
 ## Instruction for 🤖 Agent
